@@ -1,42 +1,25 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.shadow-up {
+  box-shadow: 0 -4px 6px -6px #000; /* Adjust values for your desired shadow effect */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.shadow-up-logo {
+  box-shadow: 0 -2px 4px -3px #000; /* Adjust values for your desired logo shadow effect */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.animate-borders-onload .border-t-8 {
+  height: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.animate-borders-onload .border-r-8 {
+  height: 100%;
 }
 
-.card {
-  padding: 2em;
+.animate-borders-onload .border-b-8 {
+  height: 100%;
+  width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+.animate-borders-onload .border-l-8 {
+  height: 100%;
 }
